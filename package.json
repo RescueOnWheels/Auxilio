@@ -4,7 +4,7 @@
   "description": "Helpers",
   "main": "index.js",
   "dependencies": {
-    "debug": "3.1.0",
+    "debug": "3.2.6",
     "if-env": "1.0.4"
   },
   "devDependencies": {
