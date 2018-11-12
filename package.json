@@ -1,0 +1,19 @@
+{
+  "name": "auxilio",
+  "version": "1.0.0",
+  "description": "Helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RescueOnWheels/Auxilio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RescueOnWheels/Auxilio/issues"
+  },
+  "homepage": "https://github.com/RescueOnWheels/Auxilio#readme"
+}
