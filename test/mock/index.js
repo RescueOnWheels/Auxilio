@@ -10,6 +10,6 @@ describe('Mock', () => {
   describe('debug', debug);
   describe('isDuplicate', isDuplicate);
   describe('normalize', normalize);
-  describe('screen', screen)
+  describe('screen', screen);
   describe('generateToken', generateToken);
 });

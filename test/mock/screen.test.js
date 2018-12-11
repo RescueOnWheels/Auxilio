@@ -7,7 +7,6 @@ const screen = require('../../lib/screen');
 chai.should();
 
 module.exports = () => {
-
   describe('test cases', () => {
     it('should clean both row1 and row2', () => {
       // Arrange
@@ -16,12 +15,12 @@ module.exports = () => {
 
       // Act
       screen.clear();
-      
+
       // Assert
       screen.lcd.display[0].should.equal('                ');
       screen.lcd.display[1].should.equal('                ');
     });
-    it('should clear the line set in clearln',() => {
+    it('should clear the line set in clearln', () => {
       // Arrange
       screen.clear();
       screen.println('ABCDEFGHIJKLMNOP', 1);
@@ -33,6 +32,6 @@ module.exports = () => {
       // Assert
       screen.lcd.display[0].should.equal('                ');
       screen.lcd.display[1].should.equal('PONMLKJIHGFEDCBA');
-    })
+    });
   });
 };
