@@ -73,9 +73,9 @@ describe('generateToken', () => {
       token.should.equal('ABBA');
     });
 
-    it('should return \'ABBA\' if ENV is debug', () => {
+    it('should return \'ABBA\' if ENV is CI', () => {
       // Arrange
-      process.env.NODE_ENV = 'debug';
+      process.env.NODE_ENV = 'CI';
 
       // Act
       token = generateToken();
